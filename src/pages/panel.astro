@@ -1,0 +1,6 @@
+---
+import Base from '../layouts/Base.astro';
+import Panel from '../components/containers/Panel';
+import { site } from '../content/site';
+---
+<Base title="Acceso privado" privatePage><div class="panel-page-heading"><p class="eyebrow">{site.name}</p><h1>Área de encargados</h1><p class="muted">Consulta las solicitudes y sus detalles en un solo lugar.</p></div><noscript><p class="notice">Activa JavaScript para iniciar sesión en el panel.</p></noscript><Panel client:only="react" /></Base>

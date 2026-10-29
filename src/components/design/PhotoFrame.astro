@@ -1,0 +1,11 @@
+---
+import { withBase } from '../../lib/paths';
+import type { DesignPhoto } from '../../content/design';
+interface Props { photo: DesignPhoto; eager?: boolean; class?: string; sizes?: string; caption?: boolean }
+const { photo, eager = false, class: className = '', sizes = '(min-width: 1000px) 50vw, 100vw', caption = true } = Astro.props;
+const srcset = photo.illustrative ? [640,1280,1920].map(w => `${withBase(`/images/${photo.id}-${w}.webp`)} ${w}w`).join(', ') : undefined;
+---
+<figure class:list={['photo-frame', className]}>
+  <div class="photo-crop"><img src={withBase(photo.src)} srcset={srcset} sizes={sizes} width="1920" height="1280" alt={photo.alt} loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : 'auto'} decoding="async" />{photo.illustrative && <span class="photo-flag" aria-hidden="true">Fotografía ilustrativa</span>}</div>
+  {caption && <figcaption class="photo-note">{photo.illustrative ? 'Fotografía ilustrativa · no corresponde al recinto.' : photo.caption}</figcaption>}
+</figure>

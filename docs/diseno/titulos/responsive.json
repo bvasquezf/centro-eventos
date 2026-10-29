@@ -1,0 +1,639 @@
+[
+  {
+    "altoTitulo": 134,
+    "ancho": 320,
+    "documento": 320,
+    "ruta": "/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 82,
+    "ancho": 320,
+    "documento": 320,
+    "ruta": "/espacios/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 126,
+    "ancho": 320,
+    "documento": 320,
+    "ruta": "/eventos/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 124,
+    "ancho": 320,
+    "documento": 320,
+    "ruta": "/galeria/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 84,
+    "ancho": 320,
+    "documento": 320,
+    "ruta": "/contacto/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 36,
+    "ancho": 320,
+    "documento": 320,
+    "ruta": "/panel/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 124,
+    "ancho": 320,
+    "documento": 320,
+    "ruta": "/revision-diseno/estados/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 134,
+    "ancho": 375,
+    "documento": 375,
+    "ruta": "/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 82,
+    "ancho": 375,
+    "documento": 375,
+    "ruta": "/espacios/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 84,
+    "ancho": 375,
+    "documento": 375,
+    "ruta": "/eventos/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 124,
+    "ancho": 375,
+    "documento": 375,
+    "ruta": "/galeria/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 84,
+    "ancho": 375,
+    "documento": 375,
+    "ruta": "/contacto/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 36,
+    "ancho": 375,
+    "documento": 375,
+    "ruta": "/panel/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 82,
+    "ancho": 375,
+    "documento": 375,
+    "ruta": "/revision-diseno/estados/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 89,
+    "ancho": 430,
+    "documento": 430,
+    "ruta": "/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 82,
+    "ancho": 430,
+    "documento": 430,
+    "ruta": "/espacios/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 84,
+    "ancho": 430,
+    "documento": 430,
+    "ruta": "/eventos/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 84,
+    "ancho": 430,
+    "documento": 430,
+    "ruta": "/galeria/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 84,
+    "ancho": 430,
+    "documento": 430,
+    "ruta": "/contacto/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 36,
+    "ancho": 430,
+    "documento": 430,
+    "ruta": "/panel/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 82,
+    "ancho": 430,
+    "documento": 430,
+    "ruta": "/revision-diseno/estados/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 89,
+    "ancho": 600,
+    "documento": 600,
+    "ruta": "/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 43,
+    "ancho": 600,
+    "documento": 600,
+    "ruta": "/espacios/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 87,
+    "ancho": 600,
+    "documento": 600,
+    "ruta": "/eventos/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 87,
+    "ancho": 600,
+    "documento": 600,
+    "ruta": "/galeria/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 43,
+    "ancho": 600,
+    "documento": 600,
+    "ruta": "/contacto/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 36,
+    "ancho": 600,
+    "documento": 600,
+    "ruta": "/panel/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 43,
+    "ancho": 600,
+    "documento": 600,
+    "ruta": "/revision-diseno/estados/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 89,
+    "ancho": 601,
+    "documento": 601,
+    "ruta": "/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 43,
+    "ancho": 601,
+    "documento": 601,
+    "ruta": "/espacios/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 86,
+    "ancho": 601,
+    "documento": 601,
+    "ruta": "/eventos/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 86,
+    "ancho": 601,
+    "documento": 601,
+    "ruta": "/galeria/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 43,
+    "ancho": 601,
+    "documento": 601,
+    "ruta": "/contacto/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 43,
+    "ancho": 601,
+    "documento": 601,
+    "ruta": "/panel/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 43,
+    "ancho": 601,
+    "documento": 601,
+    "ruta": "/revision-diseno/estados/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 96,
+    "ancho": 768,
+    "documento": 768,
+    "ruta": "/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 49,
+    "ancho": 768,
+    "documento": 768,
+    "ruta": "/espacios/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 97,
+    "ancho": 768,
+    "documento": 768,
+    "ruta": "/eventos/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 97,
+    "ancho": 768,
+    "documento": 768,
+    "ruta": "/galeria/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 49,
+    "ancho": 768,
+    "documento": 768,
+    "ruta": "/contacto/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 43,
+    "ancho": 768,
+    "documento": 768,
+    "ruta": "/panel/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 49,
+    "ancho": 768,
+    "documento": 768,
+    "ruta": "/revision-diseno/estados/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 106,
+    "ancho": 900,
+    "documento": 900,
+    "ruta": "/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 53,
+    "ancho": 900,
+    "documento": 900,
+    "ruta": "/espacios/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 105,
+    "ancho": 900,
+    "documento": 900,
+    "ruta": "/eventos/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 105,
+    "ancho": 900,
+    "documento": 900,
+    "ruta": "/galeria/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 53,
+    "ancho": 900,
+    "documento": 900,
+    "ruta": "/contacto/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 43,
+    "ancho": 900,
+    "documento": 900,
+    "ruta": "/panel/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 53,
+    "ancho": 900,
+    "documento": 900,
+    "ruta": "/revision-diseno/estados/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 106,
+    "ancho": 901,
+    "documento": 901,
+    "ruta": "/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 102,
+    "ancho": 901,
+    "documento": 901,
+    "ruta": "/espacios/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 105,
+    "ancho": 901,
+    "documento": 901,
+    "ruta": "/eventos/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 105,
+    "ancho": 901,
+    "documento": 901,
+    "ruta": "/galeria/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 105,
+    "ancho": 901,
+    "documento": 901,
+    "ruta": "/contacto/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 43,
+    "ancho": 901,
+    "documento": 901,
+    "ruta": "/panel/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 53,
+    "ancho": 901,
+    "documento": 901,
+    "ruta": "/revision-diseno/estados/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 115,
+    "ancho": 1024,
+    "documento": 1024,
+    "ruta": "/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 111,
+    "ancho": 1024,
+    "documento": 1024,
+    "ruta": "/espacios/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 114,
+    "ancho": 1024,
+    "documento": 1024,
+    "ruta": "/eventos/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 114,
+    "ancho": 1024,
+    "documento": 1024,
+    "ruta": "/galeria/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 114,
+    "ancho": 1024,
+    "documento": 1024,
+    "ruta": "/contacto/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 43,
+    "ancho": 1024,
+    "documento": 1024,
+    "ruta": "/panel/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 57,
+    "ancho": 1024,
+    "documento": 1024,
+    "ruta": "/revision-diseno/estados/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 129,
+    "ancho": 1200,
+    "documento": 1200,
+    "ruta": "/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 122,
+    "ancho": 1200,
+    "documento": 1200,
+    "ruta": "/espacios/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 126,
+    "ancho": 1200,
+    "documento": 1200,
+    "ruta": "/eventos/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 126,
+    "ancho": 1200,
+    "documento": 1200,
+    "ruta": "/galeria/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 126,
+    "ancho": 1200,
+    "documento": 1200,
+    "ruta": "/contacto/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 43,
+    "ancho": 1200,
+    "documento": 1200,
+    "ruta": "/panel/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 63,
+    "ancho": 1200,
+    "documento": 1200,
+    "ruta": "/revision-diseno/estados/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 147,
+    "ancho": 1440,
+    "documento": 1440,
+    "ruta": "/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 68,
+    "ancho": 1440,
+    "documento": 1440,
+    "ruta": "/espacios/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 136,
+    "ancho": 1440,
+    "documento": 1440,
+    "ruta": "/eventos/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 136,
+    "ancho": 1440,
+    "documento": 1440,
+    "ruta": "/galeria/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 68,
+    "ancho": 1440,
+    "documento": 1440,
+    "ruta": "/contacto/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 43,
+    "ancho": 1440,
+    "documento": 1440,
+    "ruta": "/panel/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 68,
+    "ancho": 1440,
+    "documento": 1440,
+    "ruta": "/revision-diseno/estados/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 154,
+    "ancho": 1920,
+    "documento": 1920,
+    "ruta": "/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 68,
+    "ancho": 1920,
+    "documento": 1920,
+    "ruta": "/espacios/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 136,
+    "ancho": 1920,
+    "documento": 1920,
+    "ruta": "/eventos/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 136,
+    "ancho": 1920,
+    "documento": 1920,
+    "ruta": "/galeria/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 68,
+    "ancho": 1920,
+    "documento": 1920,
+    "ruta": "/contacto/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 43,
+    "ancho": 1920,
+    "documento": 1920,
+    "ruta": "/panel/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 68,
+    "ancho": 1920,
+    "documento": 1920,
+    "ruta": "/revision-diseno/estados/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 154,
+    "ancho": 2560,
+    "documento": 2560,
+    "ruta": "/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 68,
+    "ancho": 2560,
+    "documento": 2560,
+    "ruta": "/espacios/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 136,
+    "ancho": 2560,
+    "documento": 2560,
+    "ruta": "/eventos/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 136,
+    "ancho": 2560,
+    "documento": 2560,
+    "ruta": "/galeria/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 68,
+    "ancho": 2560,
+    "documento": 2560,
+    "ruta": "/contacto/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 43,
+    "ancho": 2560,
+    "documento": 2560,
+    "ruta": "/panel/",
+    "titulosDesbordados": []
+  },
+  {
+    "altoTitulo": 68,
+    "ancho": 2560,
+    "documento": 2560,
+    "ruta": "/revision-diseno/estados/",
+    "titulosDesbordados": []
+  }
+]

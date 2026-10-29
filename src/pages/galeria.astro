@@ -1,0 +1,8 @@
+---
+import Base from '../layouts/Base.astro';
+import Gallery from '../components/ui/Gallery';
+import { galleryPhotos } from '../content/design';
+import { photos } from '../content/site';
+import VisitCta from '../components/design/VisitCta.astro';
+---
+<Base title="Galería"><section class="page-heading"><p class="eyebrow">Una mirada a las posibilidades</p><h1>Encuentros que <em>se imaginan en imágenes.</em></h1><p class="page-lead">Explora la selección y abre cada fotografía para verla con más detalle.</p></section>{!photos.length && <p class="info-line"><strong>Selección ilustrativa.</strong> Estas imágenes de referencia no corresponden al recinto. Las fotografías reales están pendientes.</p>}<Gallery photos={galleryPhotos} client:load /><noscript><p class="notice">Activa JavaScript para ampliar las fotografías. Puedes explorar las imágenes igualmente.</p></noscript><VisitCta /></Base>

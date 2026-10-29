@@ -1,0 +1,95 @@
+[
+  {
+    "ancho": 1440,
+    "documento": 1440,
+    "encabezados": [
+      "Solicitudes recibidas 0",
+      "Por ahora, todo está al día."
+    ],
+    "estado": "vacio"
+  },
+  {
+    "ancho": 1440,
+    "documento": 1440,
+    "encabezados": [
+      "Solicitudes recibidas 13",
+      "Cargando solicitudes…"
+    ],
+    "estado": "carga"
+  },
+  {
+    "ancho": 1440,
+    "documento": 1440,
+    "encabezados": [
+      "Solicitudes recibidas 13",
+      "No pudimos cargar las solicitudes."
+    ],
+    "estado": "error"
+  },
+  {
+    "ancho": 1440,
+    "documento": 1440,
+    "encabezados": [
+      "Cada encuentroempieza aquí.",
+      "Bienvenido de nuevo."
+    ],
+    "estado": "login"
+  },
+  {
+    "ancho": 1440,
+    "documento": 1440,
+    "encabezados": [
+      "Cada encuentroempieza aquí.",
+      "Nueva contraseña"
+    ],
+    "estado": "recuperacion"
+  },
+  {
+    "ancho": 1440,
+    "documento": 1440,
+    "encabezados": [
+      "Esta cuenta no tiene permiso."
+    ],
+    "estado": "denegado"
+  },
+  {
+    "ancho": 1440,
+    "documento": 1440,
+    "encabezados": [
+      "Comprobando acceso"
+    ],
+    "estado": "verificando"
+  },
+  {
+    "ancho": 1440,
+    "documento": 1440,
+    "encabezados": [
+      "Una idea para empezar."
+    ],
+    "estado": "formulario"
+  },
+  {
+    "ancho": 1440,
+    "documento": 1440,
+    "encabezados": [
+      "Una idea para empezar."
+    ],
+    "estado": "form-error"
+  },
+  {
+    "ancho": 1440,
+    "documento": 1440,
+    "encabezados": [
+      "Una idea para empezar."
+    ],
+    "estado": "form-carga"
+  },
+  {
+    "ancho": 1440,
+    "documento": 1440,
+    "encabezados": [
+      "Una idea para empezar."
+    ],
+    "estado": "form-exito"
+  }
+]

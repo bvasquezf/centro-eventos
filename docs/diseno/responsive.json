@@ -1,0 +1,107 @@
+[
+  {
+    "ancho": 375,
+    "documento": 375,
+    "ruta": "/"
+  },
+  {
+    "ancho": 375,
+    "documento": 375,
+    "ruta": "/espacios/"
+  },
+  {
+    "ancho": 375,
+    "documento": 375,
+    "ruta": "/eventos/"
+  },
+  {
+    "ancho": 375,
+    "documento": 375,
+    "ruta": "/galeria/"
+  },
+  {
+    "ancho": 375,
+    "documento": 375,
+    "ruta": "/contacto/"
+  },
+  {
+    "ancho": 375,
+    "documento": 375,
+    "ruta": "/panel/"
+  },
+  {
+    "ancho": 375,
+    "documento": 375,
+    "ruta": "/revision-diseno/estados/"
+  },
+  {
+    "ancho": 768,
+    "documento": 768,
+    "ruta": "/"
+  },
+  {
+    "ancho": 768,
+    "documento": 768,
+    "ruta": "/espacios/"
+  },
+  {
+    "ancho": 768,
+    "documento": 768,
+    "ruta": "/eventos/"
+  },
+  {
+    "ancho": 768,
+    "documento": 768,
+    "ruta": "/galeria/"
+  },
+  {
+    "ancho": 768,
+    "documento": 768,
+    "ruta": "/contacto/"
+  },
+  {
+    "ancho": 768,
+    "documento": 768,
+    "ruta": "/panel/"
+  },
+  {
+    "ancho": 768,
+    "documento": 768,
+    "ruta": "/revision-diseno/estados/"
+  },
+  {
+    "ancho": 1440,
+    "documento": 1440,
+    "ruta": "/"
+  },
+  {
+    "ancho": 1440,
+    "documento": 1440,
+    "ruta": "/espacios/"
+  },
+  {
+    "ancho": 1440,
+    "documento": 1440,
+    "ruta": "/eventos/"
+  },
+  {
+    "ancho": 1440,
+    "documento": 1440,
+    "ruta": "/galeria/"
+  },
+  {
+    "ancho": 1440,
+    "documento": 1440,
+    "ruta": "/contacto/"
+  },
+  {
+    "ancho": 1440,
+    "documento": 1440,
+    "ruta": "/panel/"
+  },
+  {
+    "ancho": 1440,
+    "documento": 1440,
+    "ruta": "/revision-diseno/estados/"
+  }
+]

@@ -1,0 +1,8 @@
+---
+import Base from '../../layouts/Base.astro';
+import DesignPreview from '../../components/design/DesignPreview';
+export function getStaticPaths() {
+  return import.meta.env.DEV ? [{ params: { vista: 'estados' } }] : [];
+}
+---
+<Base title="Revisión visual · Solo desarrollo" privatePage><section class="page-heading"><p class="eyebrow">Taller de interfaz</p><h1>Los estados <em>también se diseñan.</em></h1></section><DesignPreview client:only="react" /></Base>

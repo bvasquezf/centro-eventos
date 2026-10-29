@@ -1,0 +1,9 @@
+---
+import { withBase } from '../lib/paths';
+import Base from '../layouts/Base.astro';
+import { spaces } from '../content/site';
+import { illustrativePhotos } from '../content/design';
+import PhotoFrame from '../components/design/PhotoFrame.astro';
+import VisitCta from '../components/design/VisitCta.astro';
+---
+<Base title="Espacios e instalaciones"><section class="page-heading"><p class="eyebrow">El recinto / Espacios e instalaciones</p><h1>Un lugar para <em>cada encuentro.</em></h1><p class="page-lead">Explora las posibilidades y cuéntanos cómo imaginas tu evento. El equipo confirmará contigo las características de cada espacio.</p></section><p class="info-line">Las fotografías son ilustrativas. Los nombres, capacidades e instalaciones del recinto están pendientes de confirmación.</p><div class="space-features">{spaces.slice(0,3).map((space,index) => <article class="space-feature" id={space.id}><PhotoFrame photo={illustrativePhotos[[0,2,1][index]]} eager={index===0} /><div class="space-feature-copy"><p class="eyebrow">El recinto · 0{index+1}</p><h2>Espacio 0{index+1}</h2><p class="muted">{space.name}</p><p>{space.description}</p><dl class="spec-list"><div><dt>Capacidad</dt><dd>{space.capacity}</dd></div><div><dt>Equipamiento</dt><dd>[Equipamiento por confirmar]</dd></div><div><dt>Accesibilidad</dt><dd>[Condiciones por confirmar]</dd></div></dl><a class="button secondary" href={withBase('/contacto/#formulario')}>Consultar por este espacio <span aria-hidden="true">↗</span></a></div></article>)}</div><VisitCta /></Base>

@@ -1,0 +1,98 @@
+[
+  {
+    "archivo": "shared/request.ts",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "supabase/config.toml",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "supabase/migrations/202610280001_initial.sql",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "supabase/functions/_shared/server.ts",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "supabase/functions/_shared/delivery.ts",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "supabase/functions/_shared/intake.ts",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "supabase/functions/retry-notifications/index.ts",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "supabase/functions/submit-request/index.ts",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "src/lib/requests.ts",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "src/lib/analytics.ts",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "src/lib/usePanel.ts",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "src/lib/supabase.ts",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "src/lib/auth.ts",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "src/components/containers/RequestForm.tsx",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "src/components/containers/Consent.tsx",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "src/components/containers/Panel.tsx",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "src/components/containers/WhatsApp.tsx",
+    "sin_cambios": true
+  },
+  {
+    "archivo": ".env.example",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "astro.config.mjs",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "package.json",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "package-lock.json",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "netlify.toml",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "tsconfig.json",
+    "sin_cambios": true
+  },
+  {
+    "archivo": "src/content/site.ts",
+    "sin_cambios": true
+  }
+]

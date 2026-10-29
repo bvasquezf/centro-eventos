@@ -1,0 +1,40 @@
+name: Publicar en GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      DEPLOY_TARGET: github-pages
+      ASTRO_TELEMETRY_DISABLED: '1'
+      PUBLIC_SUPABASE_URL: ${{ vars.PUBLIC_SUPABASE_URL }}
+      PUBLIC_SUPABASE_ANON_KEY: ${{ vars.PUBLIC_SUPABASE_ANON_KEY }}
+      PUBLIC_GA4_ID: ${{ vars.PUBLIC_GA4_ID }}
+    steps:
+      - name: Obtener el proyecto
+        uses: actions/checkout@v7
+      - name: Instalar, verificar, compilar y preparar las páginas
+        uses: withastro/action@v6
+        with:
+          node-version: 24
+          package-manager: npm@11
+          build-cmd: npm run verify
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publicar la web
+        id: deployment
+        uses: actions/deploy-pages@v5

@@ -1,0 +1,9 @@
+---
+import { withBase } from '../lib/paths';
+import Base from '../layouts/Base.astro';
+import { eventCategories } from '../content/site';
+import { illustrativePhotos, serviceReferences } from '../content/design';
+import PhotoFrame from '../components/design/PhotoFrame.astro';
+import VisitCta from '../components/design/VisitCta.astro';
+---
+<Base title="Eventos y servicios"><section class="page-heading"><p class="eyebrow">Motivos para reunirnos</p><h1>Tu idea. <em>Un encuentro a su medida.</em></h1><p class="page-lead">Celebraciones, conversaciones y nuevas conexiones. Cuéntanos qué quieres hacer; juntos revisaremos las posibilidades del recinto.</p></section><div class="event-features">{[eventCategories[1],eventCategories[0]].map((event,index) => <article class="event-feature"><PhotoFrame photo={illustrativePhotos[index===0?2:0]} eager={index===0} /><div><p class="eyebrow">0{index+1} / {index===0?'Empresas y marcas':'Momentos para compartir'}</p><h2>{event.title}</h2><p>{event.description}</p><p class="muted">{index===0?'Comparte el objetivo del encuentro, la cantidad aproximada de asistentes y los requerimientos de tu equipo.':'Cuéntanos la ocasión, la fecha que tienes en mente y lo que necesitas para disfrutarla.'}</p><a class="text-link" href={withBase('/contacto/#formulario')}>Solicitar una propuesta <span aria-hidden="true">↗</span></a></div></article>)}</div><section class="section"><div class="section-heading"><div><p class="eyebrow">Antes de dar el siguiente paso</p><h2>Hablemos de los detalles.</h2></div><p class="muted section-aside">Las prestaciones disponibles y sus condiciones se confirman al responder tu solicitud.</p></div><div class="service-columns">{serviceReferences.map(service => <article><p class="eyebrow">{service.number}</p><h3>{service.title}</h3><p>{service.description}</p><span class="pending-tag">{service.pending}</span></article>)}</div></section><VisitCta /></Base>

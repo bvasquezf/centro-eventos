@@ -1,0 +1,5 @@
+---
+import { withBase } from '../lib/paths';
+import Base from '../layouts/Base.astro';
+---
+<Base title="Página no encontrada"><p class="eyebrow">404</p><h1>No encontramos esta página.</h1><a class="button" href={withBase('/')}>Volver al inicio</a></Base>
