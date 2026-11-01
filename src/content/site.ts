@@ -3,7 +3,7 @@ export interface Photo { src: string; alt: string; caption: string }
 export const site = {
   name: 'Centro de Eventos [Nombre]', address: '[Dirección pendiente]', email: '[Correo pendiente]',
   phone: '[Teléfono pendiente]', whatsapp: '',
-  description: 'Un lugar para reunirnos, celebrar y compartir.',
+  description: 'El punto de encuentro para celebrar con tu equipo.',
 };
 export const spaces: Space[] = [
   { id: 'espacio-1', name: '[Espacio 1 · nombre pendiente]', description: '[Descripción e instalaciones por confirmar]', capacity: '[Capacidad por confirmar]' },
@@ -13,8 +13,8 @@ export const spaces: Space[] = [
 // Incorporar hasta 30 fotos reales autorizadas en public/galeria; sin imágenes ficticias del recinto.
 export const photos: Photo[] = [];
 export const eventCategories = [
-  { title: 'Fiestas y celebraciones', description: 'Cuéntanos qué quieres celebrar y revisaremos tu solicitud.' },
-  { title: 'Eventos corporativos', description: 'Comparte las necesidades de tu empresa para evaluar los espacios disponibles.' },
+  { title: 'Fiestas de empresa', description: 'Fiestas de fin de año, aniversarios y logros compartidos. Cuéntanos qué celebra tu equipo y revisaremos las opciones para tu evento.' },
+  { title: 'Encuentros de equipos', description: 'Reuniones, jornadas de integración y encuentros corporativos. Comparte el objetivo de tu empresa para evaluar los espacios y requerimientos.' },
 ];
 export const servicesNote = '[Servicios, equipamiento, accesibilidad y condiciones pendientes de confirmación]';
 export const navigation = [['/', 'Inicio'], ['/espacios/', 'Espacios'], ['/eventos/', 'Eventos y servicios'], ['/galeria/', 'Galería'], ['/contacto/', 'Contacto']] as const;

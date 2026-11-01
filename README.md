@@ -34,6 +34,10 @@ Abrir http://localhost:4321. Sin variables públicas de Supabase, el sitio funci
 
 Guía para el siguiente diseñador: [docs/diseno-handoff.md](docs/diseno-handoff.md). Resultados y límites de las comprobaciones: [docs/verificacion.md](docs/verificacion.md).
 
+## Diseño para eventos de empresas
+
+Rediseño del 1 de noviembre de 2026 con `frontend-design`: azul noche, índigo y ámbar, títulos Barlow Condensed y contenido centrado en fiestas de empresa, aniversarios y encuentros de equipos. Abarca las páginas públicas, contacto y panel. Ver [dirección visual y verificación](docs/diseno/redisenio-corporativo.md). Las referencias de bodas ya no se usan en la interfaz; las fotos actuales siguen siendo ilustrativas.
+
 ## Revisar el diseño implementado
 
 El rediseño conserva la lógica funcional y usa UI UX Pro Max. Ver [sistema visual y consultas](docs/diseno/sistema-visual.md), [recursos y licencias](docs/diseno/recursos.md), [contratos de interfaz](docs/diseno-handoff.md) y [verificación del diseño](docs/diseno/verificacion.md).

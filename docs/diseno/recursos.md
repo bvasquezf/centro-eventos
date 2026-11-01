@@ -1,3 +1,5 @@
+> Actualización 1 de noviembre de 2026: la dirección vigente es [fiestas de empresa](redisenio-corporativo.md). Las referencias `celebracion` y `mesa`, Playfair y Georgia quedan como recursos históricos y ya no se utilizan en la interfaz. Se incorporan `ambiente`, `fiesta` y Barlow Condensed; procedencia y licencia en el documento actualizado.
+
 # Recursos visuales
 
 Las fotografías se descargaron de las páginas gratuitas verificadas de Unsplash, bajo su [licencia](https://unsplash.com/license). Son **referencias de diseño**: no muestran el centro de eventos del proyecto. Se identifican en las fotos y sus pies; nunca se usan para afirmar instalaciones o equipamiento reales.
