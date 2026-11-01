@@ -1,0 +1,19 @@
+.request-form .request-intent { margin: 1.8rem 0 0; }
+.request-form .request-intent legend { border: 0; padding-bottom: .75rem; margin-bottom: 0; font-size: .85rem; font-weight: 500; }
+.request-intent-options { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .8rem; }
+.request-choice { position: relative; display: flex; flex-direction: column; align-items: flex-start; gap: .5rem; min-width: 0; min-height: 132px; padding: 1.15rem; border: 1px solid var(--field-border); border-radius: 16px; background: #1b1b1e; cursor: pointer; margin: 0; transition: border-color 180ms,background 180ms; }
+.request-choice > svg { width: 24px; height: 24px; color: #bab7ca; margin-bottom: .2rem; }
+.request-choice strong { font-size: .88rem; line-height: 1.4; font-weight: 600; }
+.request-choice small { color: #aaa8b5; font-size: .73rem; line-height: 1.5; }
+.request-choice input[type=radio] { position: absolute; top: 1.15rem; right: 1rem; width: 18px; min-height: 18px; height: 18px; padding: 0; margin: 0; accent-color: var(--color-accent); cursor: pointer; }
+.request-choice:has(input:checked) { background: #292333; border-color: var(--color-accent); }
+.request-choice:has(input:checked) > svg { color: var(--color-accent); }
+.request-choice:has(input:focus-visible) { outline: 3px solid var(--focus); outline-offset: 4px; }
+.request-choice:has(input:disabled) { cursor: wait; opacity: .55; }
+@media (max-width: 480px) {
+ .request-intent-options { gap: .6rem; }
+ .request-choice { padding: 1rem .8rem; min-height: 155px; }
+ .request-choice input[type=radio] { top: 1rem; right: .75rem; }
+ .request-choice strong { font-size: .8rem; }
+ .request-choice small { font-size: .7rem; }
+}

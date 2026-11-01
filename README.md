@@ -38,7 +38,7 @@ Guía para el siguiente diseñador: [docs/diseno-handoff.md](docs/diseno-handoff
 
 La dirección actual toma como referencia el ritmo visual y el desplazamiento de la página de MacBook Pro compartida por el usuario. Interfaz negra y grafito, acentos violeta y plata, Manrope para títulos y escenas fotográficas que responden al scroll. La portada incluye expansión de imagen, lectura progresiva y tres ambientes con controles; las páginas interiores, formulario y panel comparten el nuevo sistema visual. El scroll sigue siendo nativo. Sin JavaScript, con movimiento reducido o en pantallas de poca altura, todos los capítulos se presentan en orden y sin escenas fijadas.
 
-Ver [dirección, recursos y verificación](docs/diseno/inmersivo/direccion.md). Las decisiones de diseño anteriores quedan como historial. No se cambian dependencias, servicios ni reglas de datos.
+Ver [dirección, recursos y verificación](docs/diseno/inmersivo/direccion.md) y la [vista de contacto rediseñada y verificada](docs/diseno/inmersivo/contacto.md). Las decisiones de diseño anteriores quedan como historial. No se cambian dependencias, servicios ni reglas de datos.
 
 ## Diseño para eventos de empresas (histórico)
 
