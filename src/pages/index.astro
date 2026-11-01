@@ -2,41 +2,56 @@
 import { withBase } from '../lib/paths';
 import Base from '../layouts/Base.astro';
 import { spaces } from '../content/site';
-import { illustrativePhotos, serviceReferences, galleryPhotos } from '../content/design';
+import { illustrativePhotos, serviceReferences } from '../content/design';
 import PhotoFrame from '../components/design/PhotoFrame.astro';
 import VisitCta from '../components/design/VisitCta.astro';
-const occasions = ['Fiestas de fin de año', 'Aniversarios de empresa', 'Encuentros de equipos'];
+import '../styles/experience.css';
+const chapters = [
+  { label: 'Celebrar', title: 'El año termina. La noche empieza.', description: 'Fiestas de fin de año y aniversarios para celebrar lo que han logrado juntos.', photo: illustrativePhotos[0] },
+  { label: 'Conectar', title: 'Las mejores ideas empiezan entre personas.', description: 'Encuentros de empresa para conversar, compartir y mirar lo que viene.', photo: illustrativePhotos[1] },
+  { label: 'Reunirse', title: 'Un cambio de lugar. Otra perspectiva.', description: 'Jornadas de equipo fuera de la oficina. Cuéntanos el formato y revisemos las posibilidades.', photo: illustrativePhotos[2] },
+];
+const manifesto = 'Un año de trabajo. Un logro compartido. Un equipo que merece volver a encontrarse. Hay momentos que se viven mejor fuera de la rutina.';
 ---
-<Base title="Fiestas de empresa y eventos corporativos">
-  <section class="home-hero" aria-labelledby="hero-title">
-    <PhotoFrame photo={illustrativePhotos[0]} eager class="hero-photo" sizes="(min-width: 900px) 75vw, 100vw" caption={false} />
-    <div class="hero-copy">
-      <p class="eyebrow">Fiestas de empresa & encuentros corporativos</p>
-      <h1 id="hero-title">Tu equipo merece una gran celebración.</h1>
-      <p class="hero-description">Hay momentos para trabajar juntos. Y otros para celebrar todo lo que han logrado. Hagamos espacio para esos momentos.</p>
-      <div class="actions"><a class="button" href={withBase('/contacto/#formulario')}>Cotizar mi evento <span aria-hidden="true">↗</span></a><a class="hero-secondary" href={withBase('/espacios/')}>Conocer los espacios</a></div>
+<Base title="Fiestas de empresa y eventos corporativos" immersive>
+  <section class="experience-hero" data-scroll-scene="hero" aria-labelledby="experience-title">
+    <div class="hero-stage">
+      <div class="experience-intro">
+        <p class="experience-kicker">Eventos de empresa</p>
+        <h1 id="experience-title"><span>Fuera de la rutina.</span><span>Dentro del momento.</span></h1>
+        <p class="experience-subtitle">Un equipo. Mucho que celebrar.</p>
+        <div class="actions"><a class="button" href={withBase('/contacto/#formulario')}>Cotizar mi evento</a><a class="experience-link" href="#experiencia">Explorar la experiencia <span aria-hidden="true">⌄</span></a></div>
+      </div>
+      <div class="experience-visual"><PhotoFrame photo={illustrativePhotos[0]} eager caption={false} sizes="100vw" /></div>
+      <div class="hero-arrival"><h2>Ese momento.<br />Con tu equipo.</h2><p>Fiestas de fin de año, aniversarios<br />y encuentros que rompen la rutina.</p><a class="button light" href={withBase('/eventos/')}>Encuentra tu ocasión</a></div>
+      <div class="experience-footnote"><span>Fotografía ilustrativa. No corresponde al recinto.</span><span class="scroll-invitation">Desliza para descubrir <span aria-hidden="true">↓</span></span></div>
     </div>
-    <span class="hero-image-note">Imagen de referencia. No corresponde al recinto.</span>
-  </section>
-  <div class="occasion-strip" aria-label="Ideas para tu evento">{occasions.map(occasion => <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6" /></svg>{occasion}</span>)}</div>
-
-  <section class="editorial-intro section">
-    <p class="eyebrow">Un buen motivo para encontrarse</p>
-    <div><h2>Fuera de la oficina.<br />Más cerca como equipo.</h2><p>Una fiesta para cerrar el año. Un aniversario para reconocer el camino recorrido. Un encuentro para volver a conectar. Cuéntanos qué está preparando tu empresa y exploremos las posibilidades.</p></div>
   </section>
 
-  <section class="section" id="espacios">
-    <div class="section-heading"><div><p class="eyebrow">Conoce el recinto</p><h2>El espacio también hace el evento.</h2></div><a class="text-link" href={withBase('/espacios/')}>Explorar los espacios <span aria-hidden="true">↗</span></a></div>
-    <div class="space-preview-grid">{spaces.slice(0,3).map((space,index) => <article class="space-preview"><a href={withBase(`/espacios/#${space.id}`)} aria-label={`Conocer espacio ${index + 1}`}><PhotoFrame photo={illustrativePhotos[[1,2,0][index]]} sizes="(min-width: 900px) 32vw, 100vw" caption={false} /></a><div class="space-preview-heading"><h3>Espacio {index + 1}</h3><span aria-hidden="true">↗</span></div><p class="muted small">Nombre, capacidad y características por confirmar.</p></article>)}</div>
+  <section class="manifesto experience-container" aria-label="Un encuentro para tu equipo" data-manifesto>
+    <p class="manifesto-copy"><span class="sr-only">{manifesto}</span><span aria-hidden="true">{manifesto.split(' ').map((word,index) => <span class="manifesto-word" style={`--word-index:${index}`}>{word}{' '}</span>)}</span></p>
+    <p class="manifesto-caption">Tú pones el motivo. Empecemos a imaginar el encuentro.</p>
   </section>
 
-  <section class="company-feature">
-    <div class="company-feature-copy"><p class="eyebrow">El plan empieza con tu equipo</p><h2>Un año de esfuerzo.<br />Una noche para celebrarlo.</h2><p>Comparte la fecha, cuántas personas esperas y qué tipo de celebración tienes en mente. Revisaremos tu solicitud y las opciones disponibles para tu empresa.</p><a class="button secondary" href={withBase('/eventos/')}>Explorar tipos de evento <span aria-hidden="true">↗</span></a></div>
-    <PhotoFrame photo={illustrativePhotos[3]} sizes="(min-width: 900px) 45vw, 100vw" caption={false} />
+  <section id="experiencia" class="experience-heading experience-container"><p class="experience-kicker">Tu empresa, a su manera</p><h2>No todos los encuentros<br />se viven igual.</h2><p>Una gran celebración o una conversación pendiente.<br />Explora lo que tienes en mente para tu equipo.</p></section>
+  <section class="occasion-story" data-scroll-scene="occasions" aria-label="Explora tres formas de encontrarse">
+    <div class="occasion-stage">
+      <div class="occasion-slides">{chapters.map((chapter,index) => <article class="occasion-slide" data-chapter={index} aria-labelledby={`occasion-title-${index}`}>
+        <PhotoFrame photo={chapter.photo} caption={false} sizes="100vw" />
+        <div class="occasion-copy"><p class="experience-kicker">{chapter.label}</p><h3 id={`occasion-title-${index}`}>{chapter.title}</h3><p>{chapter.description}</p><a class="experience-link" href={withBase('/contacto/#formulario')}>Hablemos de tu evento <span aria-hidden="true">↗</span></a></div>
+      </article>)}</div>
+      <div class="occasion-navigation" role="group" aria-label="Elegir ambiente">{chapters.map((chapter,index) => <button type="button" class="occasion-choice" data-scene-target={index} aria-pressed={index===0}><span class="choice-dot" aria-hidden="true"></span>{chapter.label}</button>)}</div>
+      <p class="occasion-disclaimer">Imágenes de referencia. No corresponden al recinto.</p>
+    </div>
   </section>
 
-  <section class="service-section section"><div><p class="eyebrow">De la idea al encuentro</p><h2>Empecemos por lo que necesitas.</h2><p class="muted">Cada empresa celebra a su manera. Conversemos sobre espacios, montaje y condiciones antes de definir la propuesta.</p><a class="text-link" href={withBase('/contacto/#formulario')}>Conversar con el equipo <span aria-hidden="true">↗</span></a></div><div class="service-list">{serviceReferences.map(service => <article><svg class="service-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19V5h14v14zM5 12h14M12 5v14" /></svg><div><h3>{service.title}</h3><p>{service.description}</p><span class="pending-tag">{service.pending}</span></div></article>)}</div></section>
+  <section class="spaces-experience experience-container" id="espacios"><div class="experience-section-heading"><div><p class="experience-kicker">El siguiente paso es conocerlo</p><h2>Hazle espacio<br />a tu próximo evento.</h2></div><a class="experience-link" href={withBase('/espacios/')}>Explorar el recinto <span aria-hidden="true">↗</span></a></div>
+    <div class="experience-spaces">{spaces.slice(0,3).map((space,index) => <article class="experience-space"><a class="experience-space-image" href={withBase(`/espacios/#${space.id}`)} aria-label={`Conocer espacio ${index+1}`}><PhotoFrame photo={illustrativePhotos[[1,2,0][index]]} caption={false} sizes="(min-width: 900px) 33vw, 90vw" /><span class="space-open" aria-hidden="true">+</span></a><div><h3>Espacio {index+1}</h3><p>Nombre, capacidad e instalaciones por confirmar.</p></div></article>)}</div>
+  </section>
 
-  <section class="section home-gallery"><div class="section-heading"><div><p class="eyebrow">Ambientes que inspiran</p><h2>Dale una vuelta a la rutina.</h2></div><a class="text-link" href={withBase('/galeria/')}>Explorar la galería <span aria-hidden="true">↗</span></a></div><div class="gallery-preview">{[galleryPhotos[0],galleryPhotos[1] ?? galleryPhotos[0]].filter(Boolean).map(photo => <a href={withBase('/galeria/')} aria-label="Explorar fotografías de referencia"><PhotoFrame photo={photo} /></a>)}</div></section>
-  <VisitCta />
+  <section class="planning-experience experience-container"><div><p class="experience-kicker">Del primer mensaje al encuentro</p><h2>Una buena idea.<br />Y una conversación.</h2><p class="planning-description">No necesitas tener todo resuelto. Comparte lo que imaginas y revisaremos contigo los detalles.</p><a class="button" href={withBase('/contacto/#formulario')}>Empezar mi solicitud</a></div><div class="planning-details">{serviceReferences.map(service => <article><h3>{service.title}</h3><p>{service.description}</p><span>{service.pending}</span></article>)}</div></section>
+  <div class="experience-container"><VisitCta /></div>
 </Base>
+<script>
+  import '../scripts/experience';
+</script>

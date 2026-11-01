@@ -34,7 +34,13 @@ Abrir http://localhost:4321. Sin variables públicas de Supabase, el sitio funci
 
 Guía para el siguiente diseñador: [docs/diseno-handoff.md](docs/diseno-handoff.md). Resultados y límites de las comprobaciones: [docs/verificacion.md](docs/verificacion.md).
 
-## Diseño para eventos de empresas
+## Experiencia inmersiva vigente
+
+La dirección actual toma como referencia el ritmo visual y el desplazamiento de la página de MacBook Pro compartida por el usuario. Interfaz negra y grafito, acentos violeta y plata, Manrope para títulos y escenas fotográficas que responden al scroll. La portada incluye expansión de imagen, lectura progresiva y tres ambientes con controles; las páginas interiores, formulario y panel comparten el nuevo sistema visual. El scroll sigue siendo nativo. Sin JavaScript, con movimiento reducido o en pantallas de poca altura, todos los capítulos se presentan en orden y sin escenas fijadas.
+
+Ver [dirección, recursos y verificación](docs/diseno/inmersivo/direccion.md). Las decisiones de diseño anteriores quedan como historial. No se cambian dependencias, servicios ni reglas de datos.
+
+## Diseño para eventos de empresas (histórico)
 
 Rediseño del 1 de noviembre de 2026 con `frontend-design`: azul noche, índigo y ámbar, títulos Barlow Condensed y contenido centrado en fiestas de empresa, aniversarios y encuentros de equipos. Abarca las páginas públicas, contacto y panel. Ver [dirección visual y verificación](docs/diseno/redisenio-corporativo.md). Las referencias de bodas ya no se usan en la interfaz; las fotos actuales siguen siendo ilustrativas.
 

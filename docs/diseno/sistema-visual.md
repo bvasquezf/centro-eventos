@@ -1,3 +1,5 @@
+> Histórico. El sistema visual vigente es la [experiencia inmersiva](inmersivo/direccion.md), solicitada el 1 de noviembre de 2026.
+
 # Sistema visual — Centro de Eventos
 
 Dirección: editorial cálida, marfil y verde profundo. Fotografías protagonistas, títulos serif, información breve y una acción principal por bloque. Se conservan los colores de la base y la arquitectura Astro/React/Tailwind. No se añaden dependencias.
